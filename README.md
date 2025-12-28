@@ -254,8 +254,18 @@ All training scripts support WandB logging. View metrics at [wandb.ai](https://w
 **GRPO Metrics**:
 - `train_reward_total`: Total reward (format + answer)
 - `train_reward_answer`: Answer correctness
-- `train_format_reward`: Format correctness
+- `train_reward_format`: Format correctness
 - `val_reward_*`: Validation rewards every 5 steps
+
+**Example Training Progress** (GRPO on MATH dataset with default parameters):
+
+![GRPO Training Results](./image/example_training_result.png)
+
+*Training results using default parameter settings from the script.*
+
+The plots show:
+- **Validation metrics** (top row): Steady improvement in total reward (~0.33), format correctness (~0.75), and answer correctness (~0.33) over 120+ steps
+- **Training metrics** (bottom row): On-policy rewards with natural variance from sampling, showing format reward ~0.8 and answer reward ~0.4-0.5
 
 
 ## 🔧 Hardware Requirements
