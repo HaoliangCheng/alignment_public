@@ -73,10 +73,9 @@ All algorithms use:
 
 ### Prerequisites
 
-- **Python**: 3.11 or 3.12 (Python 3.13 not yet supported)
-- **GPU**: A100 80GB recommended (tested on Google Colab with .edu accounts)
+- **Python**: 3.12 
+- **GPU**: A100 80GB used (free used on Google Colab with .edu accounts)
 - **CUDA**: Compatible CUDA version for PyTorch and vLLM
-- **Memory**: ~80GB GPU memory for training, ~40GB for inference
 
 ### Installation
 
@@ -84,7 +83,7 @@ This project uses [uv](https://github.com/astral-sh/uv) for fast dependency mana
 
 1. **Clone the repository**:
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/HaoliangCheng/alignment_public.git
 cd alignment_public
 ```
 
