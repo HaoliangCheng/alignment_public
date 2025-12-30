@@ -272,11 +272,7 @@ The plots show:
 ### Tested Configuration
 
 - **Platform**: Google Colab Pro/Pro+ (free for .edu accounts)
-- **GPU**: A100 80GB (40GB may work with reduced batch sizes)
-- **VRAM Usage**:
-  - SFT: ~30-40GB
-  - Expert Iteration: ~50-60GB (vLLM + policy model)
-  - GRPO: ~50-70GB (depends on `gpu_memory_utilization`)
+- **GPU**: A100 80GB 
 
 
 ## 📂 Project Structure
